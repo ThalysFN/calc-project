@@ -1,38 +1,48 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/css/reset.css">
-    <link rel="stylesheet" href="./src/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
     <title>Projeto Calc</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <h1>Calculadora</h1>
-    <table>
-        <tr class="button">
-            <td id="one">1</td>
-            <td>2</td>
-            <td>3</td>
-            <td>*</td>
-        </tr>
-        <tr class="button">
-            <td>4</td>
-            <td>5</td>
-            <td>6</td>
-            <td>+</td>
-        </tr>
-        <tr class="button">
-            <td>7</td>
-            <td>8</td>
-            <td>9</td>
-            <td>-</td>
-        </tr>
+    <table class="table">
+      <tr class="button">
+        <td class="parentheses">(</td>
+        <td class="parentheses">)</td>
+        <td class="percentagen">%</td>
+        <td class="clean">AC</td>
+      </tr>
+      <tr class="button">
+        <td class="one" id="one">1</td>
+        <td class="two">2</td>
+        <td class="three">3</td>
+        <td class="division">/</td>
+      </tr>
+      <tr class="button">
+        <td class="four">4</td>
+        <td class="five">5</td>
+        <td class="six">6</td>
+        <td class="multiplication">*</td>
+      </tr>
+      <tr class="button">
+        <td class="seven">7</td>
+        <td class="eight">8</td>
+        <td class="nine">9</td>
+        <td class="subtraction">-</td>
+      </tr>
+      <tr class="button">
+        <td class="point">.</td>
+        <td class="zero">0</td>
+        <td class="equal sign">=</td>
+        <td class="addition">+</td>
+      </tr>
     </table>
-</body>
-<script src="./src/js/index.js"></script>
-
+  </body>
+  <script src="./src/js/index.js"></script>
 </html>
